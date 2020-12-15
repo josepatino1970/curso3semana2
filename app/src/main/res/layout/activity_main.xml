@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:text="@string/nombre">
+
+    </TextView>
+
+    <EditText
+        android:id="@+id/id_nombre"
+        android:layout_width="343dp"
+        android:layout_height="20dp"
+        android:layout_marginLeft="10dp"
+        android:inputType="textPersonName"
+        android:text="Nombre Completo">
+
+    </EditText>
+ <LinearLayout
+     android:layout_width="260dp"
+     android:layout_height="30dp"
+     android:layout_marginTop="10dp"
+     android:orientation="horizontal"
+     >
+     <TextView
+         android:id="@+id/idsetfecha"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:layout_marginLeft="50dp"
+         android:layout_weight="1"
+         android:ellipsize="end"
+         android:text="@string/seteofecha"
+         >
+
+     </TextView>
+
+     <TextView
+         android:id="@+id/idfechanac"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:layout_weight="0"
+         android:layout_gravity="right"
+         android:text="@string/fechanac"
+         >
+
+     </TextView>
+ </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:layout_marginTop="10dp"
+        android:orientation="vertical"
+        >
+
+        <DatePicker
+            android:id="@+id/id_datepicker"
+            android:layout_width="match_parent"
+            android:layout_height="171dp"
+            android:calendarViewShown="false"
+            android:datePickerMode="spinner"></DatePicker>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="320dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="5dp"
+        android:orientation="horizontal">
+        <Button
+            android:layout_width="125dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="60dp"
+            android:text="Cancelar">
+
+        </Button>
+        <Button
+            android:layout_width="125dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:text="Ok">
+
+        </Button>
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:text="@string/telefono">
+
+    </TextView>
+    <EditText
+        android:id="@+id/id_telefono"
+        android:layout_marginLeft="10dp"
+        android:layout_width="343dp"
+        android:layout_height="20dp"
+        >
+
+    </EditText>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:text="@string/email">
+
+    </TextView>
+    <EditText
+        android:id="@+id/id_email"
+        android:layout_marginLeft="10dp"
+        android:layout_width="343dp"
+        android:layout_height="20dp"
+        >
+
+    </EditText>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:text="@string/desc_contacto">
+
+    </TextView>
+    <EditText
+        android:id="@+id/id_descripcion"
+        android:layout_marginLeft="10dp"
+        android:layout_width="343dp"
+        android:layout_height="20dp"
+        android:layout_marginTop="10dp">
+
+    </EditText>
+
+    <Button
+        android:id="@+id/btsgte"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/siguente"
+       >
+
+    </Button>
+</LinearLayout>

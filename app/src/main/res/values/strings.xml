@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">Contactos</string>
+    <string name="nombre">Nombre Completo</string>
+    <string name="seteofecha">Set Fecha</string>
+    <string name="fechanac">Fecha Nacimiento</string>
+    <string name="telefono">Telefono</string>
+    <string name="email">Email</string>
+    <string name="desc_contacto">Descripción Contacto</string>
+    <string name="cancel">Cancelar</string>
+    <string name="ok">Ok</string>
+    <string name="siguente">Siguiente</string>
+    <string name="confirmar">Confirmar Datos</string>
+    <string name="dato1">José Perez Gonzalez</string>
+    <string name="dato2">27/07/1970</string>
+    <string name="dato3">444-4444455</string>
+    <string name="dato4">jperezgonz@hotmail.com</string>
+    <string name="dato5">Conoci a José en la Ciudad de Bogota, en una reunión de Trabajo </string>
+    <string name="editar">Editar Datos</string>
+</resources>
